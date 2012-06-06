@@ -147,7 +147,7 @@ public class HodgkinHuxley implements Neuron {
 		return false;
 	}
 
-	public void stimulate(double I) {
+	public void setStimulation(double I) {
 		stimulation = I;
 	}
 

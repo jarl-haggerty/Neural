@@ -43,7 +43,7 @@ public class IntegrateAndFire implements Neuron {
 		return spiked;
 	}
 
-	public void stimulate(double I) {
+	public void setStimulation(double I) {
 		this.stimulation = I;
 	}
 	

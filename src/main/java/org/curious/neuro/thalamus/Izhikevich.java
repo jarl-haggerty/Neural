@@ -40,7 +40,7 @@ public class Izhikevich implements Neuron {
 		return spiked;
 	}
 
-	public void stimulate(double I) {
+	public void setStimulation(double I) {
 		this.I = I;
 	}
 }
